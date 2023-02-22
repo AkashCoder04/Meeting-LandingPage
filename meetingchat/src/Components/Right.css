@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.right-section{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 46, 48);
+}
+.nav{
+    width: 100%;
+    padding: 8px 20px 12px 20px;
+    display: flex;
+    border-bottom: 2px solid rgb(35, 33, 33);
+}
+ a{
+    text-decoration: none;
+    color: gray;
+    padding: 0 22px;
+    font-size: 18px;
+ }
+ a button{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 3px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+
+ .searchbar{
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+ }
+.search_button{
+    background:none;
+    border: none;
+    color: rgb(162, 157, 157);
+    position: absolute;
+    right: 30px;
+    top: 6px;
+    font-size: 14px;
+}
+ .searchbar form input{
+    width: 95%;
+    color: gray;
+    background-color: black;
+    padding: 4px 10px;
+    border: none;
+    margin-left: 3%;
+    font-size: 17px;
+    border-radius: 5px;
+ }
+
+
+ .bottom{
+    width: 92%;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(81, 77, 77);
+    padding-bottom: 17px;
+ }
+ .bottom span{
+    color: gray;
+ font-weight: 600;
+    font-size: 15px;
+ }
+
+ .users{
+    width: 92%;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    border-bottom: 2px solid rgb(81, 77, 77);
+    justify-content: space-between;
+ }
+ .users .logo{
+    width: 50%;
+   display: flex;
+
+ }
+ .icons{
+    background-color: rgb(47, 220, 236);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding: 11px;
+    font-size: 25px;
+    color: white;
+ }
+ .icons2{
+    background-color: rgb(18, 19, 19);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding: 11px;
+    font-size: 25px;
+    color: rgb(39, 241, 177);
+ }
+
+ .logo .content{
+    padding:2px 5px;
+ }
+ .logo .content h3{
+    color: white;
+    font-size: 17px;
+ }
+
+ .logo .content span{
+    color: rgb(109, 103, 103);
+    font-size: 17px;
+ }
+
+ .side_icon{
+    display: flex;
+    width: 9%;
+ }
+ .chatt{
+    background-color: rgb(32, 30, 30);
+   width: 40px;
+   height: 40px;
+   font-size: 14px;
+    color: white;
+   padding: 13px;
+    border-radius: 100%;
+    margin-right: 10px;
+ }
+
+ .three{
+    background-color: rgb(32, 30, 30);
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+     color: white;
+    padding: 13px;
+     border-radius: 100%;
+ }

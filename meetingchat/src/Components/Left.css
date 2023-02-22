@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.left-section {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.909);
+    height: 100%;
+}
+
+.icon {
+    width: 75%;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.chat-icon {
+    height: 45px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: rgb(96, 62, 218);
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.user-icon {
+    height: 45px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: rgb(28, 206, 22);
+    border-radius: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+.user1-icon {
+    height: 45px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: rgb(47, 220, 236);
+    border-radius: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+.user2-icon {
+    height: 45px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: rgb(251, 57, 89);
+    border-radius: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+
+.user3-icon {
+    height: 45px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: black;
+    border-radius: 100%;
+    color: rgb(39, 241, 177);
+    font-size: 25px;
+}
+
+.user4-icon {
+    height: 45px;
+    margin-left: 8px;
+   text-align: center;
+   padding-top: 10px;
+    background-color: rgb(61, 61, 62);
+    border-radius: 100%;
+    color: rgb(236, 239, 238);
+    font-size: 22px;
+}
+
+.user5-icon {
+    height: 45px;
+    margin-left: 8px;
+   text-align: center;
+    background-color: rgb(57, 14, 58);
+    border-radius: 100%;
+    color: rgb(22, 210, 231);
+    font-size: 35px;
+}
+
+
+.user6-icon {
+    height: 45px;
+    margin-left: 8px;
+    padding: 9px;
+    background-color: white;
+    border-radius: 100%;
+    color: rgb(234, 30, 190);
+    font-size: 25px;
+}
+
+.user7-icon {
+    height: 45px;
+    margin-left: 8px;
+   text-align: center;
+   padding-top: 10px;
+    background-color: rgb(61, 61, 62);
+    border-radius: 100%;
+    color: rgba(87, 190, 82, 0.555);
+    font-size: 22px;
+}
+
+.number {
+    position: absolute;
+    background-color: red;
+    border-radius: 15px;
+    border: 4px solid black;
+    right: -5px;
+    bottom: -3px;
+    color: white;
+    padding: 2px 8px;
+    font-size: 10px;
+    font-weight: 600;
+}
